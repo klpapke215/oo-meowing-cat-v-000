@@ -1,8 +1,6 @@
 class Cat
-  def name(cat_name)
-    puts "#{cat_name}"
-  end
+  attr_accessor :name 
   def meow
     puts "meow!"
-  end 
+  end
 end
